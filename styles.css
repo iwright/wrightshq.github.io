@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: .025em;
+  font-family: 'Lato', sans-serif;
+  background-size: cover;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 400;
+}
+
+section {
+  max-width: 80vw;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+}
